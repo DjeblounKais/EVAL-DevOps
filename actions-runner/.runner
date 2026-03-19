@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "PCKAØS",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus23.actions.githubusercontent.com/IQMkyTinVkIiI6e7e7XH7AXDWG6D5LWhPCJQP9Hm11e3LenRDn/",
+  "gitHubUrl": "https://github.com/DjeblounKais/EVAL-DevOps",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
