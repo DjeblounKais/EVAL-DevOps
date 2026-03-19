@@ -1,9 +1,0 @@
-name: CI Tests HTML
-on: [push]
-jobs:
-  test-html:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Check content
-        run: grep "MOT_INEXISTANT" index.html

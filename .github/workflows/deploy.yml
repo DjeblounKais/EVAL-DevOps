@@ -1,0 +1,12 @@
+name: CD Windows Runner
+on:
+  push:
+    branches: [ PRO ]
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to local folder
+        run: |
+          Copy-Item -Path "index.html" -Destination "C:\site-web\index.html" -Force
