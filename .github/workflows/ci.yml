@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Check content
-        run: grep "MOT_INEXISTANT" index.html
+        run: grep 'DevOps' index.html
