@@ -8,5 +8,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Deploy to local folder
-        run: |
-          Copy-Item -Path "index.html" -Destination "C:\site-web\index.html" -Force
+      - name: Deploy to Nginx
+  run: Copy-Item -Path "index.html" -Destination "C:\nginx\html\index.html" -Force
